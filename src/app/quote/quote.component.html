@@ -12,16 +12,16 @@
 </div>
 
 <div class="container">
-<div class="row" *ngFor="let quote of quotes;let i = 'index'">
-<ul>
-        <li >{{quote.name}}</li> 
-        <button (click)='toogleDetails(i)'>Show Author</button>
-
-        <app-quote-details *ngIf="quote.showAuthor" [quote]='quote'></app-quote-details>    
-</ul>
-</div>
-
-</div>
+    <div class="row" *ngFor="let quote of quotes;let i = 'index'">
+    <ul>
+            <li >{{quote.name}}</li> 
+            <button (click)='toogleDetails(i)'>Author</button>
+    
+            <app-quote-details *ngIf="quote.showAuthor" [quote]='quote'></app-quote-details>    
+    </ul>
+    </div>
+    
+    </div>
 
 
 
