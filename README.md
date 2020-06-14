@@ -2,10 +2,10 @@
 Quote is a Web App that enables the user to post their favorite quote,and makes it visible to others who can either upvote or downvote.It should also highlight the quote with the highest upvotes.
 
 # Live Link
-[ ]
+[https://mercy-njoroge.github.io/Quotes/.]
 
 # Known Bugs
-
+It does not highlight the quote with highest upvote
 
 # Technology Used
 HTML
