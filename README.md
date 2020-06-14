@@ -1,6 +1,26 @@
 # Quotes
+Quote is a Web App that enables the user to post their favorite quote,and makes it visible to others who can either upvote or downvote.It should also highlight the quote with the highest upvotes.
 
+# Live Link
+[ ]
+
+# Known Bugs
+
+
+# Technology Used
+HTML
+CSS
+JAVASCRIPT
+BOOTSTRAP
+JQUERY
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+
+# Contact
+Mercy Njoroge [aprilkasha42@gmail.com]
+
+# Licence
+Licence MIT Copyright(c)2019
+
 
 ## Development server
 
