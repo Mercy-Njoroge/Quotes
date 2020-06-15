@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Quote } from '../quote'
+import { Quote } from '../quote';
 
 @Component({
   selector: 'app-quote',
@@ -22,10 +22,10 @@ addNewQuote(quote){
   this.quotes.unshift(quote)
 
 }
-
-toogleDetails(index){
-  this.quotes[index].showAuthor = !this.quotes[index].showAuthor;
-}
+//author: boolean = false
+// toggleDetails(index){
+  // this.quotes[index].author = !this.quotes[index].author;
+ //}
   constructor() { }
 
   ngOnInit() {
