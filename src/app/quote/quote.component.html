@@ -15,9 +15,9 @@
     <div class="row" *ngFor="let quote of quotes;let i = 'index'">
     <ul>
             <li >{{quote.name}}</li> 
-            <button (click)='toogleDetails(i)'>Author</button>
+         <!--    <button (click)='toggleDetails(i)'>Author</button> -->
     
-            <app-quote-details *ngIf="quote.showAuthor" [quote]='quote'></app-quote-details>    
+            <app-quote-details *ngIf="quote.author" [quote]='quote'></app-quote-details>    
     </ul>
     </div>
     
